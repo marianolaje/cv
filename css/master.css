@@ -1,0 +1,143 @@
+/* MODIFICAN EL TOTAL DE LA PAG*/
+body{
+  background: black;
+  font-family: 'Orbitron', sans-serif;
+}
+p{
+  font-size: 1.5em;
+  line-height: 2em;
+}
+h1{
+  font-weight: bold;
+}
+
+/*MODIFICAN EL HEADER*/
+.cabecera{
+  height: 60px;
+  color: white;
+}
+.link{
+  font-size: 0.7em;
+  padding-top: 25px;
+  text-align: center;
+}
+a:hover{
+  color: #FCB8B8;
+}
+a{
+  color: #FACDCD;
+}
+a:active{
+  color: #FFE751;
+}
+.header{
+  background: url(../img/program.png);
+}
+.foto-perfil{
+  height: 110px;
+  border-radius: 50%;
+}
+
+
+/*MODIFICAN EL BODY*/
+.perfil{
+  height: 380px;
+  background: #D4D4D4;
+}
+.menu-izq-corto{ /*Educacion y Contacto*/
+  height: 350px;
+  background: #D4D4D4;
+}
+.idiomas{
+  height: 430px;
+  background: #D4D4D4;
+}
+.datos{
+  background: #D4D4D4;
+}
+.educacion{ /*Complementaria*/
+  background: #EBEBEB;
+}
+.experiencia{
+  height: 1050px;
+  background: #EBEBEB;
+}
+.informatica{
+  height: 390px;
+  background: #EBEBEB;
+}
+.footer{
+  height: 70px;
+  background: #EBEBEB;
+}
+
+/*Pulir detalles*/
+.borde{
+  border-top: dotted 2px #B5B5B5;
+}
+.fixcontainer{
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+}
+.texto-margen{
+  margin-left: 20px;
+}
+.primerTitulo{
+  padding-top: 5%;
+}
+.sangria{
+  text-indent: 1em;
+}
+.margen-top{
+  margin-top: -20px;
+}
+.referencia{ /*Tamaño de letra de Referencia Laboral*/
+  font-size: 1.2em;
+}
+.cuerpo{
+  margin-top: -20px;
+}
+.pie{ /*tamaño texto footer*/
+  font-size: 150%;
+}
+.texto-centrar{
+  text-align: center;
+}
+
+
+/*Media Querie*/
+@media (max-width: 420px){ /*Para celulares*/
+  .educacion{
+    height: 500px;
+  }
+  .datos{
+    height: 430px;
+    background: #D4D4D4;
+  }
+  .cuerpo{
+    margin-top: -50px;
+  }
+}
+@media (min-width: 421px) and (max-width: 720px){ /*Para Tablets*/
+  .educacion{
+    height: 550px;
+  }
+  .datos{
+    height: 480px;
+    background: #D4D4D4;
+  }
+}
+@media (min-width: 721px){ /*Para PC y Notebooks*/
+  .foto-perfil{
+    margin-left: -20px;
+    position: absolute;
+  }
+  .educacion{
+    height: 500px;
+  }
+  .datos{
+    height: 430px;
+    background: #D4D4D4;
+  }
+}
